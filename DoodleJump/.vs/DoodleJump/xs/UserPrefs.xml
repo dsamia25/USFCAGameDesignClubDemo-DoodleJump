@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{0579FB95-AFF7-D28B-1451-BB6E9DEDBD4B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player.cs" Line="30" Column="58" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="86" Column="101" />
+      <File FileName="../../../UnityProjects/NewCatTanks2d/Assets/Scripts/Player/CharacterController2D.cs" Line="29" Column="47" />
+      <File FileName="Assets/Scripts/CameraMovement.cs" Line="18" Column="81" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DoodleJump" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ae6f5345-9bf1-4d22-8b4a-f5685c9b9b3f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

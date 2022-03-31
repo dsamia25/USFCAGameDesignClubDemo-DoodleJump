@@ -1,15 +1,22 @@
 ﻿<Properties StartupConfiguration="{0579FB95-AFF7-D28B-1451-BB6E9DEDBD4B}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="30" Column="58" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="86" Column="101" />
-      <File FileName="../../../UnityProjects/NewCatTanks2d/Assets/Scripts/Player/CharacterController2D.cs" Line="29" Column="47" />
+      <File FileName="Assets/Scripts/Player.cs" Line="74" Column="59" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="19" Column="37" />
+      <File FileName="../../../UnityProjects/NewCatTanks2d/Assets/Scripts/Player/CharacterController2D.cs" />
       <File FileName="Assets/Scripts/CameraMovement.cs" Line="18" Column="81" />
+      <File FileName="../../../UnityProjects/NewCatTanks2d/Assets/Scripts/Player/PlayerHealth.cs" Line="14" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="DoodleJump" expanded="True" selected="True" />
+          <Node name="DoodleJump" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GameManager.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

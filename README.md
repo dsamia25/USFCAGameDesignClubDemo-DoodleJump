@@ -28,6 +28,7 @@
 - Added an "Obstacle" layer.
     - This layer will allow the player to check if they have interacted with something that will cause the game to end.
     - Will be used to check if the player has touched something deadly in the Player script.
+- Added a "DeathBox" layer that will kill the player when they collide.
     
 *****SORTING LAYERS*****
 - Added a "Background" sorting layer.

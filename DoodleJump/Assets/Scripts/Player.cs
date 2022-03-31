@@ -70,6 +70,14 @@ public class Player : MonoBehaviour
         if (GameManager.gameIsRunning)
         {
             Jump();
+
+            // If the collision is in the m_IsDeadlyLayer.
+            //if ()
+            //{
+                // GameManager.RestartLevel();
+                // OR
+                // OnPlayerDeathEvent.Invoke();
+            //}
         }
     }
 }

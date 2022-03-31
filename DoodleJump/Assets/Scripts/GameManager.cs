@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,8 +11,14 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int m_MapWidth = 5;    // The width of the map in platforms.
     [SerializeField] private int m_GapBetweenRows = 3;  // The amount of space between rows.
     [SerializeField] private int m_PlatfromsPerRow = 2; // The amount of platforms per row.
+    [SerializeField] private int m_AmountOfRows = 10;   // The amount of rows to generate.
 
     [SerializeField] private GameObject m_PlatformPrefab;   // The prefab of the platform object to generate the map with.
+
+    [Header("Events")]
+    [Space]
+
+    public UnityEvent OnPlayerDeath;
 
     // **************************************************
     // Start
@@ -20,7 +27,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < m_AmountOfRows; i++)
         {
             GeneratePlatformRow(m_MapWidth, i * m_GapBetweenRows, m_PlatfromsPerRow);
         }
